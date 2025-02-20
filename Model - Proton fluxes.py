@@ -1,12 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Apr 14 11:02:22 2023
-
-@author: ddonascimentosilva
-"""
-
-# -*- coding: utf-8 -*-
-"""
 Created on Wed Mar 29 15:52:01 2023
 
 @author: ldenooijer
@@ -18,9 +11,9 @@ from scipy.optimize import curve_fit
 import matplotlib.pyplot as plt
 
 ## Load and Prepare the Data
-## Reads the CSV file containing pH data and distance in micrometers
+## Reads the CSV file containing pH data and distance in micrometers (see example Ammonia_30degress.csv)
 # Load Data
-pH_data = pd.read_csv("C:/Users/ddonascimentosilva/OneDrive - NIOZ//ammonia2_T15.csv", 
+pH_data = pd.read_csv(".csv", 
                       sep=";", header=0, skipinitialspace=True, encoding='unicode_escape')
 
 # Extract Independent (x) and Dependent (y) Variables
